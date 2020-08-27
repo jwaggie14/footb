@@ -440,3 +440,68 @@ JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 177: NS_ERR
 JavaScript error: https://nexus.ensighten.com/TWDC-DTCI/prod/code/319e93cc8c5e42d1bf288b1cd82daab4.js?conditionId0=4872138, line 25: TypeError: __dataLayer.page.section is undefined
 JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
 JavaScript error: , line 0: uncaught exception: Object
+1598491875543	geckodriver	INFO	Listening on 127.0.0.1:60033
+1598491878619	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jlwhi\\AppData\\Local\\Temp\\rust_mozprofileazocVu"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598491881676	Marionette	INFO	Listening on port 60041
+1598491881733	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 208: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 208: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 177: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 208}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 208}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript warning: https://a.espncdn.com/players/web-player-bundle/2.1.0/espn-web-player-bundle.js, line 9599: unreachable code after return statement
+JavaScript warning: https://a.espncdn.com/players/web-player-bundle/2.1.0/espn-web-player-bundle.js, line 9599: unreachable code after return statement
+JavaScript error: https://nexus.ensighten.com/TWDC-DTCI/prod/code/319e93cc8c5e42d1bf288b1cd82daab4.js?conditionId0=4872138, line 25: TypeError: __dataLayer.page.section is undefined
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+1598492282541	Marionette	INFO	Stopped listening on port 60041
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1598495396658	geckodriver	INFO	Listening on 127.0.0.1:61838
+1598495399688	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jlwhi\\AppData\\Local\\Temp\\rust_mozprofile9t7S22"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598495402768	Marionette	INFO	Listening on port 61846
+1598495402809	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 208: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 208: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 177: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 208}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 208}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+[Child 10608, MediaDecoderStateMachine #1] WARNING: Decoder=2a1371f7400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 376
+[Child 10608, MediaDecoderStateMachine #1] WARNING: Decoder=2a1371f7400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+JavaScript warning: https://a.espncdn.com/players/web-player-bundle/2.1.0/espn-web-player-bundle.js, line 9599: unreachable code after return statement
+JavaScript warning: https://a.espncdn.com/players/web-player-bundle/2.1.0/espn-web-player-bundle.js, line 9599: unreachable code after return statement
+JavaScript error: https://nexus.ensighten.com/TWDC-DTCI/prod/code/319e93cc8c5e42d1bf288b1cd82daab4.js?conditionId0=4872138, line 25: TypeError: __dataLayer.page.section is undefined
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+1598495977362	Marionette	INFO	Stopped listening on port 61846
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1598501007790	geckodriver	INFO	Listening on 127.0.0.1:64544
+1598501010864	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jlwhi\\AppData\\Local\\Temp\\rust_mozprofilechRRt5"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598501013543	Marionette	INFO	Listening on port 64552
+1598501013977	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 208: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 208: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 177: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 208}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 208}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript warning: https://a.espncdn.com/players/web-player-bundle/2.1.0/espn-web-player-bundle.js, line 9599: unreachable code after return statement
+JavaScript warning: https://a.espncdn.com/players/web-player-bundle/2.1.0/espn-web-player-bundle.js, line 9599: unreachable code after return statement
+JavaScript error: https://nexus.ensighten.com/TWDC-DTCI/prod/code/319e93cc8c5e42d1bf288b1cd82daab4.js?conditionId0=4872138, line 25: TypeError: __dataLayer.page.section is undefined
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+1598501559383	Marionette	INFO	Stopped listening on port 64552
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
