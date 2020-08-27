@@ -23,3 +23,9 @@ If this the draft is a 10 person league, first round, 6th pick, then draftmaster
 3. Make recommendations. Sort the players by opportunity cost from highest to lowest. Higher opportunity cost picks are suggested over lower opportunity cost.
 
 
+# How to Use it
+I'm going to polish this over time. But at the moment, the best way to get this working is:
+1. Copy this repo to a local folder
+2. Create a python 3 conda environment with the anaconda package ```conda create --name NAME python=3 anaconda```
+3. Run the "draft_environment.ipynb" notebook.
+4. Draft your team from the web driver window.
