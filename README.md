@@ -29,3 +29,13 @@ I'm going to polish this over time. But at the moment, the best way to get this 
 2. Create a python 3 conda environment with the anaconda package ```conda create --name NAME python=3 anaconda```
 3. Run the "draft_environment.ipynb" notebook.
 4. Draft your team from the web driver window.
+
+
+
+# To do list (no particular order)
+- Add support for other web drivers
+- Add support for other hosts (sleeper, nfl, etc.)
+- Add support for other score settings
+- Create a GUI
+- figure out a method for wider accessibility, (web-based, .exe, ???)
+
