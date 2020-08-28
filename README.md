@@ -27,6 +27,7 @@ If this the draft is a 10 person league, first round, 6th pick, then draftmaster
 I'm going to polish this over time. But at the moment, the best way to get this working is:
 1. Copy this repo to a local folder
 2. Create a python 3 conda environment with the anaconda package ```conda create --name NAME python=3 anaconda```
+3. Install the selenium package and the gecko webdriver. see https://selenium-python.readthedocs.io/installation.html for detailed instructions
 3. Run the "draft_environment.ipynb" notebook.
 4. Draft your team from the web driver window.
 
