@@ -33,6 +33,8 @@ I'm going to polish this over time. But at the moment, the best way to get this 
 
 
 # To do list (no particular order)
+- turn this into a legit package
+  - create a requirements.txt file for package management.
 - Add support for other web drivers
 - Add support for other hosts (sleeper, nfl, etc.)
 - Add support for other score settings
