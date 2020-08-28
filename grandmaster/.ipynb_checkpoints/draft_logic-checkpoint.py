@@ -53,3 +53,12 @@ def blacklist_player(name,team,df):
 def top_picks(df):
     cols = ['player','team','position','points','adp','oc_adj_0','oc_adj_1']
     print(df.sort_values('oc_adj_1',ascending=False).head(10)[cols])
+    
+def tell_me_what_to_do(players,prob,draft):
+    draft.update()
+    players = draft.filter_picks(players)
+    players = draft.map_empty_positions(players)
+    np1, np2 = dl.next_picks(draft.pick_order,draft.myteam, draft.current_pick)
+    px = dl.adj_probs(players,prob,np1,np2)
+    dl.top_picks(px)
+    return px
