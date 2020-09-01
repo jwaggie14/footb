@@ -970,3 +970,51 @@ JavaScript error: , line 0: NotAllowedError: The play method is not allowed by t
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1599000992737	geckodriver	INFO	Listening on 127.0.0.1:57563
+1599000995760	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jlwhi\\AppData\\Local\\Temp\\rust_mozprofileXYD0uI"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599000999654	Marionette	INFO	Listening on port 57571
+1599000999896	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 208: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 208: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 190: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 208}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 208}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript error: https://acds.prod.vidible.tv/o2shim?companionId=&cpmPassback=&placementId=1073040&orgId=8603&injectCompanionDummy=&pauseOnClick=&d.vw=&d.app=&r=https%3A%2F%2Ffantasy.espn.com&vrid=81950153-d4bc-473b-9151-06b7a8eb04f0&pblob=, line 20: TypeError: l is undefined
+JavaScript error: https://acds.prod.vidible.tv/o2shim?companionId=&cpmPassback=&placementId=1073040&orgId=8603&injectCompanionDummy=&pauseOnClick=&d.vw=&d.app=&r=https%3A%2F%2Ffantasy.espn.com&vrid=81950153-d4bc-473b-9151-06b7a8eb04f0&pblob=, line 20: TypeError: l is undefined
+JavaScript error: https://acds.prod.vidible.tv/o2shim?companionId=&cpmPassback=&placementId=1073040&orgId=8603&injectCompanionDummy=&pauseOnClick=&d.vw=&d.app=&r=https%3A%2F%2Ffantasy.espn.com&vrid=81950153-d4bc-473b-9151-06b7a8eb04f0&pblob=, line 20: TypeError: l is undefined
+JavaScript error: https://acds.prod.vidible.tv/o2shim?companionId=&cpmPassback=&placementId=1073040&orgId=8603&injectCompanionDummy=&pauseOnClick=&d.vw=&d.app=&r=https%3A%2F%2Ffantasy.espn.com&vrid=81950153-d4bc-473b-9151-06b7a8eb04f0&pblob=, line 20: TypeError: l is undefined
+JavaScript error: https://acds.prod.vidible.tv/o2shim?companionId=&cpmPassback=&placementId=1073040&orgId=8603&injectCompanionDummy=&pauseOnClick=&d.vw=&d.app=&r=https%3A%2F%2Ffantasy.espn.com&vrid=81950153-d4bc-473b-9151-06b7a8eb04f0&pblob=, line 20: TypeError: l is undefined
+JavaScript error: https://acds.prod.vidible.tv/o2shim?companionId=&cpmPassback=&placementId=1073040&orgId=8603&injectCompanionDummy=&pauseOnClick=&d.vw=&d.app=&r=https%3A%2F%2Ffantasy.espn.com&vrid=81950153-d4bc-473b-9151-06b7a8eb04f0&pblob=, line 20: TypeError: l is undefined
+JavaScript error: https://acds.prod.vidible.tv/o2shim?companionId=&cpmPassback=&placementId=1073040&orgId=8603&injectCompanionDummy=&pauseOnClick=&d.vw=&d.app=&r=https%3A%2F%2Ffantasy.espn.com&vrid=81950153-d4bc-473b-9151-06b7a8eb04f0&pblob=, line 20: TypeError: l is undefined
+JavaScript error: https://acds.prod.vidible.tv/o2shim?companionId=&cpmPassback=&placementId=1073040&orgId=8603&injectCompanionDummy=&pauseOnClick=&d.vw=&d.app=&r=https%3A%2F%2Ffantasy.espn.com&vrid=81950153-d4bc-473b-9151-06b7a8eb04f0&pblob=, line 20: TypeError: l is undefined
+JavaScript error: https://acds.prod.vidible.tv/o2shim?companionId=&cpmPassback=&placementId=1073040&orgId=8603&injectCompanionDummy=&pauseOnClick=&d.vw=&d.app=&r=https%3A%2F%2Ffantasy.espn.com&vrid=81950153-d4bc-473b-9151-06b7a8eb04f0&pblob=, line 20: TypeError: l is undefined
+JavaScript error: https://acds.prod.vidible.tv/o2shim?companionId=&cpmPassback=&placementId=1073040&orgId=8603&injectCompanionDummy=&pauseOnClick=&d.vw=&d.app=&r=https%3A%2F%2Ffantasy.espn.com&vrid=81950153-d4bc-473b-9151-06b7a8eb04f0&pblob=, line 20: TypeError: l is undefined
+JavaScript error: https://acds.prod.vidible.tv/o2shim?companionId=&cpmPassback=&placementId=1073040&orgId=8603&injectCompanionDummy=&pauseOnClick=&d.vw=&d.app=&r=https%3A%2F%2Ffantasy.espn.com&vrid=81950153-d4bc-473b-9151-06b7a8eb04f0&pblob=, line 20: TypeError: l is undefined
+JavaScript error: https://acds.prod.vidible.tv/o2shim?companionId=&cpmPassback=&placementId=1073040&orgId=8603&injectCompanionDummy=&pauseOnClick=&d.vw=&d.app=&r=https%3A%2F%2Ffantasy.espn.com&vrid=81950153-d4bc-473b-9151-06b7a8eb04f0&pblob=, line 20: TypeError: l is undefined
+JavaScript error: https://acds.prod.vidible.tv/o2shim?companionId=&cpmPassback=&placementId=1073040&orgId=8603&injectCompanionDummy=&pauseOnClick=&d.vw=&d.app=&r=https%3A%2F%2Ffantasy.espn.com&vrid=81950153-d4bc-473b-9151-06b7a8eb04f0&pblob=, line 20: TypeError: l is undefined
+JavaScript error: https://acds.prod.vidible.tv/o2shim?companionId=&cpmPassback=&placementId=1073040&orgId=8603&injectCompanionDummy=&pauseOnClick=&d.vw=&d.app=&r=https%3A%2F%2Ffantasy.espn.com&vrid=81950153-d4bc-473b-9151-06b7a8eb04f0&pblob=, line 20: TypeError: l is undefined
+JavaScript error: https://acds.prod.vidible.tv/o2shim?companionId=&cpmPassback=&placementId=1073040&orgId=8603&injectCompanionDummy=&pauseOnClick=&d.vw=&d.app=&r=https%3A%2F%2Ffantasy.espn.com&vrid=81950153-d4bc-473b-9151-06b7a8eb04f0&pblob=, line 20: TypeError: l is undefined
+JavaScript error: https://acds.prod.vidible.tv/o2shim?companionId=&cpmPassback=&placementId=1073040&orgId=8603&injectCompanionDummy=&pauseOnClick=&d.vw=&d.app=&r=https%3A%2F%2Ffantasy.espn.com&vrid=81950153-d4bc-473b-9151-06b7a8eb04f0&pblob=, line 20: TypeError: l is undefined
+JavaScript error: https://acds.prod.vidible.tv/o2shim?companionId=&cpmPassback=&placementId=1073040&orgId=8603&injectCompanionDummy=&pauseOnClick=&d.vw=&d.app=&r=https%3A%2F%2Ffantasy.espn.com&vrid=81950153-d4bc-473b-9151-06b7a8eb04f0&pblob=, line 20: TypeError: l is undefined
+JavaScript error: https://acds.prod.vidible.tv/o2shim?companionId=&cpmPassback=&placementId=1073040&orgId=8603&injectCompanionDummy=&pauseOnClick=&d.vw=&d.app=&r=https%3A%2F%2Ffantasy.espn.com&vrid=81950153-d4bc-473b-9151-06b7a8eb04f0&pblob=, line 20: TypeError: l is undefined
+JavaScript error: https://acds.prod.vidible.tv/o2shim?companionId=&cpmPassback=&placementId=1073040&orgId=8603&injectCompanionDummy=&pauseOnClick=&d.vw=&d.app=&r=https%3A%2F%2Ffantasy.espn.com&vrid=81950153-d4bc-473b-9151-06b7a8eb04f0&pblob=, line 20: TypeError: l is undefined
+JavaScript error: https://acds.prod.vidible.tv/o2shim?companionId=&cpmPassback=&placementId=1073040&orgId=8603&injectCompanionDummy=&pauseOnClick=&d.vw=&d.app=&r=https%3A%2F%2Ffantasy.espn.com&vrid=81950153-d4bc-473b-9151-06b7a8eb04f0&pblob=, line 20: TypeError: l is undefined
+JavaScript error: https://acds.prod.vidible.tv/o2shim?companionId=&cpmPassback=&placementId=1073040&orgId=8603&injectCompanionDummy=&pauseOnClick=&d.vw=&d.app=&r=https%3A%2F%2Ffantasy.espn.com&vrid=81950153-d4bc-473b-9151-06b7a8eb04f0&pblob=, line 20: TypeError: l is undefined
+JavaScript error: https://acds.prod.vidible.tv/o2shim?companionId=&cpmPassback=&placementId=1073040&orgId=8603&injectCompanionDummy=&pauseOnClick=&d.vw=&d.app=&r=https%3A%2F%2Ffantasy.espn.com&vrid=81950153-d4bc-473b-9151-06b7a8eb04f0&pblob=, line 20: TypeError: l is undefined
+JavaScript error: https://acds.prod.vidible.tv/o2shim?companionId=&cpmPassback=&placementId=1073040&orgId=8603&injectCompanionDummy=&pauseOnClick=&d.vw=&d.app=&r=https%3A%2F%2Ffantasy.espn.com&vrid=81950153-d4bc-473b-9151-06b7a8eb04f0&pblob=, line 20: TypeError: l is undefined
+JavaScript error: https://acds.prod.vidible.tv/o2shim?companionId=&cpmPassback=&placementId=1073040&orgId=8603&injectCompanionDummy=&pauseOnClick=&d.vw=&d.app=&r=https%3A%2F%2Ffantasy.espn.com&vrid=81950153-d4bc-473b-9151-06b7a8eb04f0&pblob=, line 20: TypeError: l is undefined
+JavaScript error: https://acds.prod.vidible.tv/o2shim?companionId=&cpmPassback=&placementId=1073040&orgId=8603&injectCompanionDummy=&pauseOnClick=&d.vw=&d.app=&r=https%3A%2F%2Ffantasy.espn.com&vrid=81950153-d4bc-473b-9151-06b7a8eb04f0&pblob=, line 20: TypeError: l is undefined
+JavaScript error: https://acds.prod.vidible.tv/o2shim?companionId=&cpmPassback=&placementId=1073040&orgId=8603&injectCompanionDummy=&pauseOnClick=&d.vw=&d.app=&r=https%3A%2F%2Ffantasy.espn.com&vrid=81950153-d4bc-473b-9151-06b7a8eb04f0&pblob=, line 20: TypeError: l is undefined
+JavaScript error: https://acds.prod.vidible.tv/o2shim?companionId=&cpmPassback=&placementId=1073040&orgId=8603&injectCompanionDummy=&pauseOnClick=&d.vw=&d.app=&r=https%3A%2F%2Ffantasy.espn.com&vrid=81950153-d4bc-473b-9151-06b7a8eb04f0&pblob=, line 19: TypeError: n is undefined
+JavaScript error: https://acds.prod.vidible.tv/o2shim?companionId=&cpmPassback=&placementId=1073040&orgId=8603&injectCompanionDummy=&pauseOnClick=&d.vw=&d.app=&r=https%3A%2F%2Ffantasy.espn.com&vrid=81950153-d4bc-473b-9151-06b7a8eb04f0&pblob=, line 19: TypeError: b is undefined
+JavaScript warning: https://a.espncdn.com/players/web-player-bundle/2.1.0/espn-web-player-bundle.js, line 9599: unreachable code after return statement
+JavaScript warning: https://a.espncdn.com/players/web-player-bundle/2.1.0/espn-web-player-bundle.js, line 9599: unreachable code after return statement
+JavaScript error: https://nexus.ensighten.com/TWDC-DTCI/prod/code/319e93cc8c5e42d1bf288b1cd82daab4.js?conditionId0=4872138, line 25: TypeError: __dataLayer.page.section is undefined
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+1599002053441	Marionette	INFO	Stopped listening on port 57571
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
