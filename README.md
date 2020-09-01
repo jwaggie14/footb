@@ -10,6 +10,8 @@ I highly recommend creating a new environment to work in.
 
 # What it does
 
+[![link to youtube video demonstrating the app](http://img.youtube.com/vi/w6zQXufFmZU/0.jpg)](https://www.youtube.com/watch?v=w6zQXufFmZU "Python Draft App")
+
 GrandMaster maximizes your draft by suggesting you pick from the players with the highest opportunity cost with every pick.  GM tracks which players have been picked, what positions you need to fill, and when you get to pick.
 
 1. calculate each positions' expected best pick given at your next pick.
