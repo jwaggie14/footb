@@ -5,7 +5,7 @@ def process_projections(projection_path,idmap_path,output_path):
     proj = pd.read_csv(projection_path)
     proj = proj[proj['position'].isin(['RB','QB','WR','TE','K','DST'])]
 
-    espnidmap = pd.read_excel(idmap_path)
+    espnidmap = pd.read_csv(idmap_path)
 
     proj = proj.merge(espnidmap, how='left', on='player')
     proj = proj.dropna(subset=['adp'])

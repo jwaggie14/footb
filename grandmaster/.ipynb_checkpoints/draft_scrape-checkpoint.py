@@ -146,16 +146,17 @@ class draft_monitor:
         pass
 
     def rpick_id(self,first_r, r, p):
-        return f"/html/body/div[1]/div[1]/section/div/div[2]/main/div/div/div[3]/div[2]/div[2]/div/div/div[2]/div/div[2]/div{f'[{r}]' if first_r else ''}/div[2]/div/div[1]/div/div/div[3]/div[{p}]/div/div/div[2]/div/div[2]/div/div/div/div/div/div[1]/img[1]"
+        return f"/html/body/div[1]/div[1]/section/div/div[2]/main/div/div/div[3]/div[2]/div/div/div/div[2]/div/div[2]/div{f'[{r}]' if first_r else ''}/div[2]/div/div[1]/div/div/div[3]/div[{p}]/div/div/div[2]/div/div[2]/div/div/div/div/div/div[1]/img[1]"
     
     def rpick_name(self,first_r, r, p):
-        return f"/html/body/div[1]/div[1]/section/div/div[2]/main/div/div/div[3]/div[2]/div[2]/div/div/div[2]/div/div[2]/div{f'[{r}]' if first_r else ''}/div[2]/div/div[1]/div/div/div[3]/div[{p}]/div/div/div[2]/div/div[2]/div/div/div/div/div/div[2]/div[1]/span/span/a"
+        return f"/html/body/div[1]/div[1]/section/div/div[2]/main/div/div/div[3]/div[2]/div/div/div/div[2]/div/div[2]/div{f'[{r}]' if first_r else ''}/div[2]/div/div[1]/div/div/div[3]/div[{p}]/div/div/div[2]/div/div[2]/div/div/div/div/div/div[2]/div[1]/span/span/a"
 
     def do_pick_id(self,r, p):
-        return f"/html/body/div[1]/div[1]/section/div/div[2]/main/div/div/div[3]/div[2]/div[2]/div/div/div[2]/div/div[2]/div[{r}]/div[2]/div/div[1]/div/div/div[3]/div[{p}]/div/div/div[2]/div/div[2]/div/div/div/div/div/div[1]/img[1]"
+        return f"/html/body/div[1]/div[1]/section/div/div[2]/main/div/div/div[3]/div[2]/div/div/div/div[2]/div/div[2]/div[{r}]/div[2]/div/div[1]/div/div/div[3]/div[{p}]/div/div/div[2]/div/div[2]/div/div/div/div/div/div[1]/img[1]"
     
+      
     def do_pick_name(self,r, p):
-        return f"/html/body/div[1]/div[1]/section/div/div[2]/main/div/div/div[3]/div[2]/div[2]/div/div/div[2]/div/div[2]/div[{r}]/div[2]/div/div[1]/div/div/div[3]/div[{p}]/div/div/div[2]/div/div[2]/div/div/div/div/div/div[2]/div[1]/span/span/a"
+        return f"/html/body/div[1]/div[1]/section/div/div[2]/main/div/div/div[3]/div[2]/div/div/div/div[2]/div/div[2]/div[{r}]/div[2]/div/div[1]/div/div/div[3]/div[{p}]/div/div/div[2]/div/div[2]/div/div/div/div/div/div[2]/div[1]/span/span/a"
 
     def update(self):
         """
@@ -164,23 +165,28 @@ class draft_monitor:
         Collects the entire draft history on every call to prevent errors in the
         history.        
         """
-        self.get_current_pick()
-        self.pick_history()
-    #     current_pick = 128
-        cR = (self.current_pick-1) // self.teams + 1
-        cP = (self.current_pick-1) % self.teams + 1
-        picks_list = [(r,p) for r in range(1,cR) for p in range(1,self.teams+1)]
-        picks_list = picks_list + [(cR, p) for p in range(1, cP+1)]
-        pickids = [self.scrape_pick_ids(r,p) for r,p in picks_list]
-        1+1
-        self.avail_players()
-        self.pickids = pickids
+        self.get_current_pick(exception=1)
+        if self.current_pick == 1:
+            self.avail_players()
+            self.pickids = []
+            return
+        else:
+            self.pick_history()
+        #     current_pick = 128
+            cR = (self.current_pick-1) // self.teams + 1
+            cP = (self.current_pick-1) % self.teams + 1
+            picks_list = [(r,p) for r in range(1,cR) for p in range(1,self.teams+1)]
+            picks_list = picks_list + [(cR, p) for p in range(1, cP+1)]
+            pickids = [self.scrape_pick_ids(r,p) for r,p in picks_list]
+            1+1
+            self.avail_players()
+            self.pickids = pickids
         pass
 
     def scrape_pick_ids(self, r,p):
         "scrapes draft picks by id that matches the 'espn_id' column"
         pick = self.pick_()
-        first_round = pick <= self.teams
+        first_round = pick > self.teams
         if pick != self.teams * self.rounds:
             string = self.rpick_id(first_round,r,p)
             ns = self.rpick_name(first_round,r,p)
@@ -242,7 +248,7 @@ class draft_monitor:
     
     def filter_picks(self,df):
         dfp = self.process_update()
-        df['picked'] = df['espn_id'].isin(dfp.index)
+        df['picked'] = df['espn_id'].isin(dfp.index.astype(str))
         df['round'] = df['espn_id'].map(dfp['round'])
         df['rpick'] = df['espn_id'].map(dfp['pick'])
         return df

@@ -21,17 +21,17 @@ def expected_max(df):
     return df
 
 def adj_probs(players,probs, next_pick, next_pick2):
-    players['ESPNID'] = players['espn_id'].astype(str)
-    probs['ESPNID'] = probs['espnid'].astype(str)
+    players['espn_id'] = players['espn_id'].astype(str)
+    probs['espnid'] = probs['espnid'].astype(str)
     for i, pick in enumerate([next_pick,next_pick2]):
         pmask = probs['pick'] == pick
-        df = players.merge(probs[pmask], how='left', on='ESPNID')
+        df = players.merge(probs[pmask], how='left', left_on='espn_id', right_on='espnid')
         df['%'] = df['%'].fillna(1)
         df['%'] = np.where(df['picked'] | df['blacklist'], 0, df['%'])
         df['probpicked'] = 1 - df['%']
         df = df.groupby('position').apply(expected_max)
         palt = df.groupby('position')['emax'].sum()
-        print(palt)
+#         print(palt)
         df['opp'] = df['position'].map(palt)
         players[f'oc_raw_{i}'] = (df['points'] - df['opp']) * df['probpicked'] * ~df['picked']
         players[f'oc_adj_{i}'] = players[f'oc_raw_{i}'] * players['oc_adj']
@@ -51,7 +51,7 @@ def blacklist_player(name,team,df):
     return df
 
 def top_picks(df):
-    cols = ['player','team','position','points','adp','oc_adj_0','oc_adj_1']
+    cols = ['player','team','position','points','adp','picked','oc_adj_0','oc_adj_1']
     print(df.sort_values('oc_adj_1',ascending=False).head(10)[cols])
     
 def tell_me_what_to_do(players,prob,draft):
