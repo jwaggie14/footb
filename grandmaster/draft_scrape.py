@@ -112,7 +112,8 @@ class draft_monitor:
                 self.rosters[tnum] = team
                 self.team_map[tnum] = t.text
         else:
-            t = teams[specific_team]
+            st = specific_team - 1
+            t = teams[st]
             t.click()
             tnum = int(t.get_property('value'))
             team_ele = self.driver.find_elements_by_xpath("/html/body/div[1]/div[1]/section/div/div[2]/main/div/div/div[3]/div[1]/div[1]/div[2]/div[2]/div/section/div/div/div[2]/table/tbody/tr")
@@ -173,6 +174,8 @@ class draft_monitor:
         else:
             self.pick_history()
         #     current_pick = 128
+            self.update_rosters(self.myteam)
+            self.open_positions()
             cR = (self.current_pick-1) // self.teams + 1
             cP = (self.current_pick-1) % self.teams + 1
             picks_list = [(r,p) for r in range(1,cR) for p in range(1,self.teams+1)]

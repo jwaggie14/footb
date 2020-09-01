@@ -927,3 +927,46 @@ JavaScript error: https://nexus.ensighten.com/TWDC-DTCI/prod/code/319e93cc8c5e42
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1598998125408	geckodriver	INFO	Listening on 127.0.0.1:56401
+1598998128485	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jlwhi\\AppData\\Local\\Temp\\rust_mozprofilenmQ8Ao"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598998131162	Marionette	INFO	Listening on port 56411
+1598998131600	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 208: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 208: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 190: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 208}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 208}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript warning: https://a.espncdn.com/players/web-player-bundle/2.1.0/espn-web-player-bundle.js, line 9599: unreachable code after return statement
+JavaScript warning: https://a.espncdn.com/players/web-player-bundle/2.1.0/espn-web-player-bundle.js, line 9599: unreachable code after return statement
+JavaScript error: https://nexus.ensighten.com/TWDC-DTCI/prod/code/319e93cc8c5e42d1bf288b1cd82daab4.js?conditionId0=4872138, line 25: TypeError: __dataLayer.page.section is undefined
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+1598999078243	Marionette	INFO	Stopped listening on port 56411
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1598999542498	geckodriver	INFO	Listening on 127.0.0.1:56932
+1598999545530	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jlwhi\\AppData\\Local\\Temp\\rust_mozprofileGEY2Vm"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598999548646	Marionette	INFO	Listening on port 56940
+1598999548653	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://a.espncdn.com/players/web-player-bundle/2.1.0/espn-web-player-bundle.js, line 9599: unreachable code after return statement
+JavaScript warning: https://a.espncdn.com/players/web-player-bundle/2.1.0/espn-web-player-bundle.js, line 9599: unreachable code after return statement
+JavaScript error: https://nexus.ensighten.com/TWDC-DTCI/prod/code/319e93cc8c5e42d1bf288b1cd82daab4.js?conditionId0=4872138, line 25: TypeError: __dataLayer.page.section is undefined
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+1599000596949	Marionette	INFO	Stopped listening on port 56940
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
