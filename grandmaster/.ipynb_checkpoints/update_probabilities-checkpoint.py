@@ -48,7 +48,10 @@ def create_prob_pickle(teams, scoring, outputname, mapping_path):
     mapping = pd.read_csv('probmap.csv')
     dfs = dfs.merge(mapping, how='left', left_on='Name', right_on='probname')
     dfs['%'] = dfs['%'].apply(p2f)
+    dfs['espnid'] = dfs['espnid'].astype(str)
     dfs[['Name','Pos','Team','Bye','%','pick','espnid']].to_pickle(outputname)
     print(f'3 of 4: probabilities updated')
     print(f'4 of 4: pickle saved as {outputname}')
     pass
+
+

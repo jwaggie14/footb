@@ -2,7 +2,7 @@ from selenium import webdriver
 import pandas as pd 
 import numpy as np
 
-oc_mult = dict(zip(['QB','RB','WR','TE','K','D/ST'],[.3,.5,.5,.3,.15,.15]))
+oc_mult = dict(zip(['QB','RB','WR','TE','K','DST'],[.3,.5,.5,.3,.15,.15]))
 
 flex_positions = ['RB','WR','TE']
 
@@ -78,6 +78,7 @@ class draft_monitor:
         self.update_rosters()
         self.teams = len(self.team_map)
         self.myteam = list(self.team_map.keys())[list(self.team_map.values()).index(self.team_name)]
+        self.mypick = list(self.team_map.values()).index(self.team_name) + 1
         self.open_positions()
         self.rounds = self.empty_positions.sum()
         self.pick_order = (list(range(1,self.teams+1)) + list(range(self.teams,0,-1))) * (self.rounds // 2)
@@ -112,7 +113,7 @@ class draft_monitor:
                 self.rosters[tnum] = team
                 self.team_map[tnum] = t.text
         else:
-            st = specific_team - 1
+            st = specific_team
             t = teams[st]
             t.click()
             tnum = int(t.get_property('value'))
@@ -127,7 +128,7 @@ class draft_monitor:
         """
         Finds and counts your unfilled starting roster positions.
         """
-        self.empty_positions = self.rosters[self.myteam][self.open_mask()]['position'].value_counts()
+        self.empty_positions = self.rosters[self.myteam][self.open_mask()]['position'].value_counts().rename({'D/ST':'DST'})
         if 'FLEX' in self.empty_positions.index:
             self.need_flex = True
         else:
@@ -167,7 +168,7 @@ class draft_monitor:
         history.        
         """
         self.get_current_pick(exception=1)
-        if self.current_pick == 1:
+        if self.current_pick <0:
             self.avail_players()
             self.pickids = []
             return

@@ -1018,3 +1018,165 @@ JavaScript error: , line 0: NotAllowedError: The play method is not allowed by t
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1599273110265	geckodriver	INFO	Listening on 127.0.0.1:61382
+1599273113297	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jlwhi\\AppData\\Local\\Temp\\rust_mozprofileCl29cZ"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599273115263	Marionette	INFO	Listening on port 61392
+1599273115310	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://a.espncdn.com/prod/scripts/analytics/at.r3.js, line 13: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://a.espncdn.com/prod/scripts/analytics/at.r3.js, line 13: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://a.espncdn.com/prod/scripts/moat/yield.js, line 183: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://a.espncdn.com/prod/scripts/moat/yield.js, line 183: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript error: https://tags.bluekai.com/site/24667?ret=html&phint=pageName%3Despn%3Afrontpage&phint=channel%3Despn%3Afrontpage&phint=eVar34%3D&phint=events%3Devent3&phint=prop1%3Despn&phint=swid%3DB6CA6F75-0839-44FA-C47E-943A0F50FB37&phint=unid%3D&phint=prop4%3Dindex&phint=prop9%3D&phint=prop23%3D&phint=prop25%3D&phint=prop26%3Dno%2Bleague&phint=prop30%3Dpremium-no&phint=prop32%3D&phint=prop45%3D&phint=__bk_t%3DESPN%3A%20Serving%20sports%20fans.%20Anytime.%20Anywhere.&phint=__bk_k%3DESPN%2C%20sports%20scores%2C%20sports%20news%2C%20football%20scores%2C%20cricket%20scores%2C%20rugby%20scores%2C%20f1%20scores%2C%20golf%20scores%2C%20tennis%20scores%2C%20MLB%20scores%2C%20NFL%20scores%2C%20NBA%20scores%2C%20NHL%20scores%2C%20College%20Football%20scores%2C%20College%20Basketball%20scores%2C%20sports%20videos%2C%20sports%20information%2C%20Fantasy%20sports%2C%20Fantasy%20games%2C%20Fantasy%20football%2C%20Fantasy%20baseball&phint=__bk_l%3Dhttps%3A%2F%2Fwww.espn.com%2F&phint=__bk_v%3D3.1.5&limit=10&r=5998155, line 19: SyntaxError: unexpected token: identifier
+JavaScript warning: https://pagead2.googlesyndication.com/bg/w3uW36kZ3iEz52fjwmSMTfWAeiBMgQCjgDc5TerGjFY.js line 1 > eval line 5058 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/w3uW36kZ3iEz52fjwmSMTfWAeiBMgQCjgDc5TerGjFY.js line 1 > eval line 4447 > eval, line 1: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://z.moatads.com/essencedigitalna20153870852878/moatad.js#moatClientLevel1=4736204&moatClientLevel2=24394812&moatClientLevel3=471496284&moatClientLevel4=134184980&moatClientSlicer1=6023068&moatClientSlicer2=277464342&zMoatG=ct=US&st=TX&city=16346&dma=99&zp=77498&bw=4&ord=2904657220&zMoatAUCID=ABAjH0jJfWWlzI94TNKyWaUHeKs1, line 261: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://z.moatads.com/essencedigitalna20153870852878/moatad.js#moatClientLevel1=4736204&moatClientLevel2=24394812&moatClientLevel3=471496284&moatClientLevel4=134184980&moatClientSlicer1=6023068&moatClientSlicer2=277464342&zMoatG=ct=US&st=TX&city=16346&dma=99&zp=77498&bw=4&ord=2904657220&zMoatAUCID=ABAjH0jJfWWlzI94TNKyWaUHeKs1, line 261: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/w3uW36kZ3iEz52fjwmSMTfWAeiBMgQCjgDc5TerGjFY.js line 1 > eval line 7047 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/w3uW36kZ3iEz52fjwmSMTfWAeiBMgQCjgDc5TerGjFY.js line 1 > eval line 5679 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://z.moatads.com/espndfp832188684382/moatad.js#moatClientLevel1=4702817705&moatClientLevel2=2644534471&moatClientLevel3=5441478368&moatClientLevel4=138318959022&moatClientSlicer1=21782482296&moatClientSlicer2=21815509497&zMoatPS=banner&zMoatSW=B6CA6F75-0839-44FA-C47E-943A0F50FB37&zMoatAdUnitPath=/21783347309/espn.com/fantasy/football/mockdraftLobby&zMoatMData=&zMoatSZ=1280x100&zMoatMGV=&zMoatMSafety=&zMoatMMV=&zMoatMIVR=&refresh=1, line 263: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://z.moatads.com/espndfp832188684382/moatad.js#moatClientLevel1=4702817705&moatClientLevel2=2644534471&moatClientLevel3=5441478368&moatClientLevel4=138318959022&moatClientSlicer1=21782482296&moatClientSlicer2=21815509497&zMoatPS=banner&zMoatSW=B6CA6F75-0839-44FA-C47E-943A0F50FB37&zMoatAdUnitPath=/21783347309/espn.com/fantasy/football/mockdraftLobby&zMoatMData=&zMoatSZ=1280x100&zMoatMGV=&zMoatMSafety=&zMoatMMV=&zMoatMIVR=&refresh=1, line 263: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://z.moatads.com/espndfp832188684382/moatad.js#moatClientLevel1=4702817705&moatClientLevel2=2644534471&moatClientLevel3=5441478368&moatClientLevel4=138318959022&moatClientSlicer1=21782482296&moatClientSlicer2=21815509509&zMoatPS=banner&zMoatSW=B6CA6F75-0839-44FA-C47E-943A0F50FB37&zMoatAdUnitPath=/21783347309/espn.com/fantasy/football/waitingroom&zMoatMData=&zMoatSZ=1280x100&zMoatMGV=&zMoatMSafety=&zMoatMMV=&zMoatMIVR=&refresh=1, line 263: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://z.moatads.com/espndfp832188684382/moatad.js#moatClientLevel1=4702817705&moatClientLevel2=2644534471&moatClientLevel3=5441478368&moatClientLevel4=138318959022&moatClientSlicer1=21782482296&moatClientSlicer2=21815509509&zMoatPS=banner&zMoatSW=B6CA6F75-0839-44FA-C47E-943A0F50FB37&zMoatAdUnitPath=/21783347309/espn.com/fantasy/football/waitingroom&zMoatMData=&zMoatSZ=1280x100&zMoatMGV=&zMoatMSafety=&zMoatMMV=&zMoatMIVR=&refresh=1, line 263: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/w3uW36kZ3iEz52fjwmSMTfWAeiBMgQCjgDc5TerGjFY.js line 1 > eval line 872 > eval, line 1: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/w3uW36kZ3iEz52fjwmSMTfWAeiBMgQCjgDc5TerGjFY.js line 1 > eval line 2248 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://z.moatads.com/espndfp832188684382/moatad.js#moatClientLevel1=4702817705&moatClientLevel2=2644534471&moatClientLevel3=5441478368&moatClientLevel4=138318959022&moatClientSlicer1=21782482296&moatClientSlicer2=21815509497&zMoatPS=banner&zMoatSW=B6CA6F75-0839-44FA-C47E-943A0F50FB37&zMoatAdUnitPath=/21783347309/espn.com/fantasy/football/mockdraftLobby&zMoatMData=&zMoatSZ=1280x100&zMoatMGV=&zMoatMSafety=&zMoatMMV=&zMoatMIVR=&refresh=1, line 263: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://z.moatads.com/espndfp832188684382/moatad.js#moatClientLevel1=4702817705&moatClientLevel2=2644534471&moatClientLevel3=5441478368&moatClientLevel4=138318959022&moatClientSlicer1=21782482296&moatClientSlicer2=21815509497&zMoatPS=banner&zMoatSW=B6CA6F75-0839-44FA-C47E-943A0F50FB37&zMoatAdUnitPath=/21783347309/espn.com/fantasy/football/mockdraftLobby&zMoatMData=&zMoatSZ=1280x100&zMoatMGV=&zMoatMSafety=&zMoatMMV=&zMoatMIVR=&refresh=1, line 263: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/w3uW36kZ3iEz52fjwmSMTfWAeiBMgQCjgDc5TerGjFY.js line 1 > eval line 2040 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://a.espncdn.com/qa/scripts/moat/yield.js, line 183: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://a.espncdn.com/qa/scripts/moat/yield.js, line 183: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/w3uW36kZ3iEz52fjwmSMTfWAeiBMgQCjgDc5TerGjFY.js line 1 > eval line 2548 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 208: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 208: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 190: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 208}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 208}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript warning: https://pagead2.googlesyndication.com/bg/w3uW36kZ3iEz52fjwmSMTfWAeiBMgQCjgDc5TerGjFY.js line 1 > eval line 6619 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://a.espncdn.com/qa/scripts/moat/yield.js, line 183: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://a.espncdn.com/qa/scripts/moat/yield.js, line 183: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/w3uW36kZ3iEz52fjwmSMTfWAeiBMgQCjgDc5TerGjFY.js line 1 > eval line 6956 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript error: https://vidstat.taboola.com/vpaid/units/28_1_33/infra/cmTagFEED_MANAGER.js, line 10: TypeError: IntersectionObserver.observe: Argument 1 is not an object.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/w3uW36kZ3iEz52fjwmSMTfWAeiBMgQCjgDc5TerGjFY.js line 1 > eval line 617 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://a.espncdn.com/qa/scripts/moat/yield.js, line 183: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://a.espncdn.com/qa/scripts/moat/yield.js, line 183: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/w3uW36kZ3iEz52fjwmSMTfWAeiBMgQCjgDc5TerGjFY.js line 1 > eval line 5510 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://a.espncdn.com/players/web-player-bundle/2.1.0/espn-web-player-bundle.js, line 9599: unreachable code after return statement
+JavaScript warning: https://a.espncdn.com/players/web-player-bundle/2.1.0/espn-web-player-bundle.js, line 9599: unreachable code after return statement
+JavaScript error: https://nexus.ensighten.com/TWDC-DTCI/prod/code/319e93cc8c5e42d1bf288b1cd82daab4.js?conditionId0=4872138, line 25: TypeError: __dataLayer.page.section is undefined
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript warning: https://z.moatads.com/abcimavideo618769704984/moatvideo.js#_moatApi2558903, line 273: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://z.moatads.com/abcimavideo618769704984/moatvideo.js#_moatApi2558903, line 273: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/w3uW36kZ3iEz52fjwmSMTfWAeiBMgQCjgDc5TerGjFY.js line 1 > eval line 6150 > eval, line 1: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: https://nexus.ensighten.com/TWDC-DTCI/prod/code/319e93cc8c5e42d1bf288b1cd82daab4.js?conditionId0=4872138, line 25: TypeError: __dataLayer.page.section is undefined
+JavaScript warning: https://z.moatads.com/abcimavideo618769704984/moatvideo.js#_moatApi92812632, line 273: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://z.moatads.com/abcimavideo618769704984/moatvideo.js#_moatApi92812632, line 273: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/w3uW36kZ3iEz52fjwmSMTfWAeiBMgQCjgDc5TerGjFY.js line 1 > eval line 7708 > eval, line 1: Failed to create WebGL context: WebGL is currently disabled.
+[Child 20260, MediaDecoderStateMachine #7] WARNING: Decoder=28316cd7000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 20260, MediaDecoderStateMachine #7] WARNING: Decoder=28316cd7000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 20260, MediaDecoderStateMachine #7] WARNING: Decoder=28316cd7000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 20260, MediaDecoderStateMachine #7] WARNING: Decoder=28316cd7000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 20260, MediaDecoderStateMachine #7] WARNING: Decoder=28316cd7000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3470
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1599276058040	Marionette	INFO	Stopped listening on port 61392
+1599408796137	geckodriver	INFO	Listening on 127.0.0.1:61934
+1599408799194	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jlwhi\\AppData\\Local\\Temp\\rust_mozprofile5IF2HV"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599408802228	Marionette	INFO	Listening on port 61942
+1599408802308	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://a.espncdn.com/players/web-player-bundle/2.1.0/espn-web-player-bundle.js, line 9599: unreachable code after return statement
+JavaScript warning: https://a.espncdn.com/players/web-player-bundle/2.1.0/espn-web-player-bundle.js, line 9599: unreachable code after return statement
+JavaScript error: https://nexus.ensighten.com/TWDC-DTCI/prod/code/319e93cc8c5e42d1bf288b1cd82daab4.js?conditionId0=4872138, line 25: TypeError: __dataLayer.page.section is undefined
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+1599410714475	Marionette	INFO	Stopped listening on port 61942
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599410798836	geckodriver	INFO	Listening on 127.0.0.1:62492
+1599410801898	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\jlwhi\\AppData\\Local\\Temp\\rust_mozprofileLLL9bq"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599410804722	Marionette	INFO	Listening on port 62500
+1599410805017	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 208: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 208: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 190: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 208}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 208}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript warning: https://a.espncdn.com/players/web-player-bundle/2.1.0/espn-web-player-bundle.js, line 9599: unreachable code after return statement
+JavaScript warning: https://a.espncdn.com/players/web-player-bundle/2.1.0/espn-web-player-bundle.js, line 9599: unreachable code after return statement
+JavaScript error: https://nexus.ensighten.com/TWDC-DTCI/prod/code/319e93cc8c5e42d1bf288b1cd82daab4.js?conditionId0=4872138, line 25: TypeError: __dataLayer.page.section is undefined
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: https://global.go.com/stat/dolWebAnalytics.js, line 54: TypeError: document.location is null
+JavaScript warning: https://a.espncdn.com/players/web-player-bundle/2.1.0/espn-web-player-bundle.js, line 9599: unreachable code after return statement
+JavaScript warning: https://a.espncdn.com/players/web-player-bundle/2.1.0/espn-web-player-bundle.js, line 9599: unreachable code after return statement
+JavaScript error: https://nexus.ensighten.com/TWDC-DTCI/prod/code/319e93cc8c5e42d1bf288b1cd82daab4.js?conditionId0=4872138, line 25: TypeError: __dataLayer.page.section is undefined
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1599411974584	Marionette	INFO	Stopped listening on port 62500
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+an't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599411954842	Marionette	INFO	Listening on port 63127
+1599411955299	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 208: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 208: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 190: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 208}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 208}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript warning: https://a.espncdn.com/players/web-player-bundle/2.1.0/espn-web-player-bundle.js, line 9599: unreachable code after return statement
+JavaScript warning: https://a.espncdn.com/players/web-player-bundle/2.1.0/espn-web-player-bundle.js, line 9599: unreachable code after return statement
+JavaScript error: https://nexus.ensighten.com/TWDC-DTCI/prod/code/319e93cc8c5e42d1bf288b1cd82daab4.js?conditionId0=4872138, line 25: TypeError: __dataLayer.page.section is undefined
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+Handler function _httpResponseExaminer threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:111:9
+_httpResponseExaminer@resource://devtools/server/actors/network-monitor/network-observer.js:415:10
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 111, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 111))
+JavaScript error: https://nexus.ensighten.com/TWDC-DTCI/prod/code/319e93cc8c5e42d1bf288b1cd82daab4.js?conditionId0=4872138, line 25: TypeError: __dataLayer.page.section is undefined
+JavaScript error: https://fantasy.espn.com/_next/static/commons/main-56255853a52f6d5260ac.js, line 1: TypeError: r is undefined
+JavaScript error: , line 0: InvalidStateError: Navigated away from page
+JavaScript error: https://nexus.ensighten.com/TWDC-DTCI/prod/code/319e93cc8c5e42d1bf288b1cd82daab4.js?conditionId0=4872138, line 25: TypeError: __dataLayer.page.section is undefined
+JavaScript error: https://nexus.ensighten.com/TWDC-DTCI/prod/code/319e93cc8c5e42d1bf288b1cd82daab4.js?conditionId0=4872138, line 25: TypeError: __dataLayer.page.section is undefined
+JavaScript error: https://nexus.ensighten.com/TWDC-DTCI/prod/code/319e93cc8c5e42d1bf288b1cd82daab4.js?conditionId0=4872138, line 25: TypeError: __dataLayer.page.section is undefined
+JavaScript error: https://nexus.ensighten.com/TWDC-DTCI/prod/code/319e93cc8c5e42d1bf288b1cd82daab4.js?conditionId0=4872138, line 25: TypeError: __dataLayer.page.section is undefined
+JavaScript error: https://nexus.ensighten.com/TWDC-DTCI/prod/code/319e93cc8c5e42d1bf288b1cd82daab4.js?conditionId0=4872138, line 25: TypeError: __dataLayer.page.section is undefined
+JavaScript error: https://nexus.ensighten.com/TWDC-DTCI/prod/code/319e93cc8c5e42d1bf288b1cd82daab4.js?conditionId0=4872138, line 25: TypeError: __dataLayer.page.section is undefined
+JavaScript error: https://players.brightcove.net/3948005062001/zRtuFJOcV_default/index.min.js, line 1: TypeError: this.el_ is null
+JavaScript error: https://nexus.ensighten.com/TWDC-DTCI/prod/code/319e93cc8c5e42d1bf288b1cd82daab4.js?conditionId0=4872138, line 25: TypeError: __dataLayer.page.section is undefined
+JavaScript error: https://players.brightcove.net/3948005062001/zRtuFJOcV_default/index.min.js, line 1: TypeError: this.el_ is null
+JavaScript error: https://nexus.ensighten.com/TWDC-DTCI/prod/code/319e93cc8c5e42d1bf288b1cd82daab4.js?conditionId0=4872138, line 25: TypeError: __dataLayer.page.section is undefined
+JavaScript error: https://fw.adsafeprotected.com/rjss/www.googletagservices.com/382734/41790860/dcm/dcmads.js, line 1001: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://players.brightcove.net/3948005062001/zRtuFJOcV_default/index.min.js, line 1: TypeError: this.el_ is null
+JavaScript error: https://nexus.ensighten.com/TWDC-DTCI/prod/code/319e93cc8c5e42d1bf288b1cd82daab4.js?conditionId0=4872138, line 25: TypeError: __dataLayer.page.section is undefined
+JavaScript error: https://nexus.ensighten.com/TWDC-DTCI/prod/code/319e93cc8c5e42d1bf288b1cd82daab4.js?conditionId0=4872138, line 25: TypeError: __dataLayer.page.section is undefined
+JavaScript error: https://nexus.ensighten.com/TWDC-DTCI/prod/code/319e93cc8c5e42d1bf288b1cd82daab4.js?conditionId0=4872138, line 25: TypeError: __dataLayer.page.section is undefined
+JavaScript error: https://nexus.ensighten.com/TWDC-DTCI/prod/code/319e93cc8c5e42d1bf288b1cd82daab4.js?conditionId0=4872138, line 25: TypeError: __dataLayer.page.section is undefined
+JavaScript error: https://nexus.ensighten.com/TWDC-DTCI/prod/code/319e93cc8c5e42d1bf288b1cd82daab4.js?conditionId0=4872138, line 25: TypeError: __dataLayer.page.section is undefined
+JavaScript error: https://nexus.ensighten.com/TWDC-DTCI/prod/code/319e93cc8c5e42d1bf288b1cd82daab4.js?conditionId0=4872138, line 25: TypeError: __dataLayer.page.section is undefined
+JavaScript error: https://nexus.ensighten.com/TWDC-DTCI/prod/code/319e93cc8c5e42d1bf288b1cd82daab4.js?conditionId0=4872138, line 25: TypeError: __dataLayer.page.section is undefined
+JavaScript error: https://nexus.ensighten.com/TWDC-DTCI/prod/code/319e93cc8c5e42d1bf288b1cd82daab4.js?conditionId0=4872138, line 25: TypeError: __dataLayer.page.section is undefined
+JavaScript error: https://nexus.ensighten.com/TWDC-DTCI/prod/code/319e93cc8c5e42d1bf288b1cd82daab4.js?conditionId0=4872138, line 25: TypeError: __dataLayer.page.section is undefined
+JavaScript error: https://nexus.ensighten.com/TWDC-DTCI/prod/code/319e93cc8c5e42d1bf288b1cd82daab4.js?conditionId0=4872138, line 25: TypeError: __dataLayer.page.section is undefined
+JavaScript error: https://nexus.ensighten.com/TWDC-DTCI/prod/code/319e93cc8c5e42d1bf288b1cd82daab4.js?conditionId0=4872138, line 25: TypeError: __dataLayer.page.section is undefined
+1599418412250	Marionette	INFO	Stopped listening on port 63127
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

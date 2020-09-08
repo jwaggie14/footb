@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 # df = pd.read_csv(r'C:\Users\james.whiting\OneDrive - Shell\Documents\ffa_customrankings2020-0.csv')
-oc_mult = dict(zip(['QB','RB','WR','TE','K','D/ST'],[.3,.5,.5,.3,.15,.15]))
+oc_mult = dict(zip(['QB','RB','WR','TE','K','DST'],[.3,.5,.5,.3,.15,.15]))
 
 map_mult = lambda df: df['position'].map(oc_mult)
 
@@ -26,14 +26,21 @@ def adj_probs(players,probs, next_pick, next_pick2):
     for i, pick in enumerate([next_pick,next_pick2]):
         pmask = probs['pick'] == pick
         df = players.merge(probs[pmask], how='left', left_on='espn_id', right_on='espnid')
+        df.index = df['espn_id']
+        df.index.name = None
         df['%'] = df['%'].fillna(1)
+        df = df.sort_values('%')
         df['%'] = np.where(df['picked'] | df['blacklist'], 0, df['%'])
         df['probpicked'] = 1 - df['%']
+        df = df.sort_values(['probpicked','points'],ascending=False)
         df = df.groupby('position').apply(expected_max)
         palt = df.groupby('position')['emax'].sum()
+        print(f'P+{i+1}: Alternatives')
+        print(palt)
+        print('')
         df['opp'] = df['position'].map(palt)
-        players[f'oc_raw_{i}'] = (df['points'] - df['opp']) * df['probpicked'] * ~df['picked'] * ~df['blacklist']
-        players[f'oc_adj_{i}'] = players[f'oc_raw_{i}'] * players['oc_adj']
+        players[f'oc_raw_{i}'] = (df['points'] - df['opp']) * ~df['picked'] * ~df['blacklist']
+        players[f'oc_adj_{i}'] = players[f'oc_raw_{i}'] * players['oc_adj'] * df['probpicked']
         players[f'pb_{i}'] = df['probpicked']
     return players.copy()
 
